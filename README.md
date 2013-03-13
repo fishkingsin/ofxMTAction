@@ -28,12 +28,19 @@ Installation
 Dependencies
 ------------
 ofxNetwork
+
 ofxOsc
+
 ofxXmlSettings
+
 ofxMSAInteractiveObject
+
 ofxMTAction
+
 ofxMultiTouch
+
 ofxMultiTouchObject
+
 ofxTuio
 
 
