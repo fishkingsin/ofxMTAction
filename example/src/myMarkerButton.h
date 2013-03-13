@@ -40,12 +40,12 @@ public:
 	};
 	
 	void render(){
-		glColor3f(col.r, col.g, col.b);
+		glColor4f(col.r, col.g, col.b,1);
 		glPushMatrix();
 		glTranslatef(x+width/2, y+height/2, 0);
 		glRotatef(angle, 0,0,1);
 		ofRect(-width/2,-height/2, width, height);
-		glColor3f(1,1,1);
+		glColor4f(1,1,1,1);
 		ofLine(0,0,0,-height/2);
 		glPopMatrix();
 		ofDrawBitmapString("I am a Marker Button", x, y+height+15);

@@ -38,9 +38,9 @@ public:
 	};
 	
 	void render(){
-		glColor3f(col.r, col.g, col.b);
+		glColor4f(col.r, col.g, col.b,1.0);
 		ofRect(x,y, width, height);
-		glColor3f(1,1,1);
+		glColor4f(1,1,1,1.0);
 		ofDrawBitmapString("I am a Multitouchbutton", x, y+height+15);
 	};
 	

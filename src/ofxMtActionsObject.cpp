@@ -173,7 +173,7 @@ void ofxMtActionsObject::drawContent() {
 
 //--------------------------------------------------------------
 void ofxMtActionsObject::render(){
-	glColor3f(1,1,1);
+	glColor4f(1,1,1,1.0);
 	glPushMatrix();
 		glTranslatef(x, y, 0);
 		glRotatef(180.0f*rotation/PI, 0, 0, 1);
@@ -184,7 +184,7 @@ void ofxMtActionsObject::render(){
 	
 	
 	if(drawTouchCounts) {
-		glColor3f(1,1,1);
+		glColor4f(1,1,1,1.0);
 		glPushMatrix();
 		glTranslatef(x + 30, y, 0);
 		ofDrawBitmapString(ofToString((int)touches.size())+ " touches \n"

@@ -3,8 +3,7 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 	ofBackground(0, 0, 0);
-	ofSetVerticalSync(true);
-	
+	ofSetVerticalSync(true);	
 	//Connect to Port
 	myTuio.start(3333);
 	

@@ -35,9 +35,9 @@ public:
 		col.b = ofRandom(0,1);
 	};
 	void render(){
-		glColor3f(col.r, col.g, col.b);
+		glColor4f(col.r, col.g, col.b,1.0);
 		ofRect(x, y, width, height);
-		//glColor3f(1,1,1);
+		//glColor4f(1,1,1);
 		//ofDrawBitmapString("Bg Color", x, y+height+15);
 	};
 	
