@@ -4,7 +4,8 @@ ofxMTAction
 
 Introduction
 ------------
-A standardize OF format addons originally from:
+A standardize OF format addons repository 
+originally from:
 https://github.com/naychrist/ofxMultiTouchActions_example
 
 create object which is draggable by tuio cursor
